@@ -1,0 +1,11 @@
+//ask the user to input a set of numbers to sum
+#include <iostream>
+
+int main() {
+  std::cout << "Enter a set of numbers: ";
+  int sum = 0, value = 0;
+  while (std::cin >> value) //input an error(not an integer) or ctr-d to end-of-file
+    sum += value;
+  std::cout << "Sum is: " << sum << std::endl;
+  return 0;
+}
