@@ -1,0 +1,13 @@
+//a while loop print the numbers from 10 to 0
+#include <iostream>
+
+int main() {
+  int n = 10;
+  std:: cout << "The numbers from 10 to 0:\n";
+  
+  while (n >= 0) {
+    std:: cout << n << std::endl;
+    n--;
+  }
+  return 0;
+}
