@@ -1,0 +1,23 @@
+//print each number in the range specified by those two intgers
+#include <iostream>
+
+int main() {
+  int start, end, small, big;
+  std:: cout << "Enter two integers: ";
+  std:: cin >> start >> end;
+
+  if (start < end) {
+    small = start;
+    big = end;
+  }
+  else {
+    small = end;
+    big = start;
+  }
+  while (small <= big) {
+    std:: cout << small << " ";
+    small++;
+  }
+  return 0;
+
+}
